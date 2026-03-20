@@ -60,7 +60,7 @@ Data sources : (https://github.com/fatwaman/ETL_Excel_with_Pandas/blob/main/Shif
    ```bash
    engine = create_engine(f"postgresql+psycopg2://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}")
    ```
-5. Ingesting data to PostgreSQL
+5. Import data to PostgreSQL
    ```bash
    df_finalize.to_sql(name="table_name", con=engine, if_exists="replace", index=False)
    ```
