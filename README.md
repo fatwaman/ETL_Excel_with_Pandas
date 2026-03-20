@@ -47,7 +47,7 @@ Data sources : (https://github.com/fatwaman/ETL_Excel_with_Pandas/blob/main/Shif
                     var_name='value_category',
                     value_name='value')
    ```
-3. *Running PostgreSQL with Docker Run PostgreSQL* using Docker with the following commnad in your terminal:
+3. Create PostgreSQL container using Docker, with the following command in your terminal:
    ```bash
    docker run -d --name "container name" \
    -e POSTGRES_USER="admin" \
