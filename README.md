@@ -2,8 +2,8 @@
 This project aims to do data cleaning using pandas and numpy and storing it in PostgreSQL database using Docker
 
 ## 📍 **The main processes in this project include:**
-1. **Downloading the Dataset**, Fetching New York Taxi data from reliable sources
-2. **Data Transformation**, Using Jupyter Notebook to converting time formats and adjusting the data schema to fit PostgreSQL
+1. **Downloading the Dataset**, Fetching data from reliable sources
+2. **Data Transformation**, Using VS Code or Jupyter Notebook to converting time formats and adjusting the data schema to fit PostgreSQL
 3. **Running PostgreSQL with Docker**, Setting up the database environtment using containers
 4. **Connecting to PostgreSQL**, Using SQLAlchemy to interact with the database
 5. **Uploading Data to PostgreSQL**, Storing data in the defines tables and verifying the upload results
