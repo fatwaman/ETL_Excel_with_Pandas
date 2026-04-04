@@ -1,17 +1,21 @@
 # 📊 **ETL Excel to PostgreSQL using Docker**
 This project aims to do data cleaning using pandas and numpy and storing it in PostgreSQL database using Docker
 
-## 📍 **The main processes in this project include:**
+### 📍 **The main processes in this project include:**
 1. **Downloading the Dataset**, Fetching data from reliable sources
 2. **Data Transformation**, Using VS Code or Jupyter Notebook to converting time formats and adjusting the data schema to fit PostgreSQL
 3. **Running PostgreSQL with Docker**, Setting up the database environtment using containers
 4. **Connecting to PostgreSQL**, Using SQLAlchemy to interact with the database
 5. **Uploading Data to PostgreSQL**, Storing data in the defines tables and verifying the upload results
 
-## 🗃️ **Dataset**
+----------
+
+### 🗃️ **Dataset**
 Data sources : (https://github.com/fatwaman/ETL_Excel_with_Pandas/blob/main/Shift%20Report%20Tipe%20A%20Februari%202026.xlsx)
 
-## ✅ **Step by Step**
+----------
+
+### ✅ **Step by Step**
 1. Import required library
    ```bash
    import pandas as pd
